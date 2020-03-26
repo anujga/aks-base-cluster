@@ -8,7 +8,7 @@ metadata:
 spec:
   releaseName: prometheus-operator
   chart:
-    repository: https://hub.helm.sh/charts/stable
-    name: prometheus-operator
+    repository: https://hub.helm.sh
+    name: stable/prometheus-operator
     version: 8.12.3
   values: {}
