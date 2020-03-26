@@ -10,4 +10,5 @@ spec:
   chart:
     repository: https://github.com/helm/charts/stable
     name: prometheus-operator
+    version: 8.12.3
   values: {}
