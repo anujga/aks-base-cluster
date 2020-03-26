@@ -8,7 +8,6 @@ metadata:
 spec:
   releaseName: prometheus-operator
   chart:
-    git: git@github.com:helm/charts.git
-    path: stable/prometheus-operator
-    ref: master
+    repository: https://github.com/helm/charts/stable
+    name: prometheus-operator
   values: {}
