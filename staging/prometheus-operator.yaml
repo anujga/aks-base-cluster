@@ -1,0 +1,14 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: prometheus-operator
+  namespace: monitoring
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: prometheus-operator
+  chart:
+    git: git@github.com:helm/charts.git
+    path: stable/prometheus-operator
+    ref: master
+  values: {}
